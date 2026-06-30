@@ -1,0 +1,12 @@
+{
+  "name": "davpilot",
+  "version": "0.1.0",
+  "description": "A Windows WebDAV drive manager powered by rclone and WinFsp.",
+  "license": "GPL-3.0-or-later",
+  "private": true,
+  "scripts": {
+    "start": "node scripts/package-native.js && .\\release\\DavPilot-portable\\DavPilot.exe",
+    "check": "node scripts/check-syntax.js",
+    "dist": "node scripts/package-native.js"
+  }
+}

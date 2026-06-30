@@ -1,0 +1,8 @@
+node_modules/
+release/
+dist/
+tools/
+product-design-audit/
+product-design-audit-real-data/
+*.log
+*.tmp
